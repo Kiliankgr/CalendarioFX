@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.ColumnConstraints?>
+<?import javafx.scene.layout.GridPane?>
+<?import javafx.scene.layout.RowConstraints?>
+
+<fx:root fx:id="root" minHeight="-Infinity" minWidth="-Infinity" prefHeight="181.0" prefWidth="214.0" type="GridPane" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1">
+   <rowConstraints>
+      <RowConstraints minHeight="10.0" prefHeight="30.0" />
+      <RowConstraints minHeight="5.0" prefHeight="30.0" valignment="CENTER" />
+      <RowConstraints minHeight="5.0" prefHeight="30.0" />
+      <RowConstraints minHeight="5.0" prefHeight="30.0" />
+      <RowConstraints minHeight="5.0" prefHeight="30.0" />
+      <RowConstraints minHeight="5.0" prefHeight="30.0" />
+      <RowConstraints minHeight="5.0" prefHeight="30.0" />
+      <RowConstraints minHeight="5.0" prefHeight="30.0" />
+   </rowConstraints>
+   <columnConstraints>
+      <ColumnConstraints minWidth="5.0" prefWidth="100.0" />
+      <ColumnConstraints minWidth="5.0" prefWidth="100.0" />
+      <ColumnConstraints minWidth="5.0" prefWidth="100.0" />
+      <ColumnConstraints minWidth="5.0" prefWidth="100.0" />
+      <ColumnConstraints minWidth="5.0" prefWidth="100.0" />
+      <ColumnConstraints minWidth="5.0" prefWidth="100.0" />
+      <ColumnConstraints minWidth="5.0" prefWidth="100.0" />
+   </columnConstraints>
+   <children>
+      <Label fx:id="monthLabel" GridPane.columnSpan="7" GridPane.halignment="CENTER" />
+      <Label text="L" GridPane.halignment="CENTER" GridPane.rowIndex="1" />
+      <Label text="M" GridPane.columnIndex="1" GridPane.halignment="CENTER" GridPane.rowIndex="1" />
+      <Label text="X" GridPane.columnIndex="2" GridPane.halignment="CENTER" GridPane.rowIndex="1" />
+      <Label text="J" GridPane.columnIndex="3" GridPane.halignment="CENTER" GridPane.rowIndex="1" />
+      <Label text="V" GridPane.columnIndex="4" GridPane.halignment="CENTER" GridPane.rowIndex="1" />
+      <Label text="S" GridPane.columnIndex="5" GridPane.halignment="CENTER" GridPane.rowIndex="1" />
+      <Label text="D" GridPane.columnIndex="6" GridPane.halignment="CENTER" GridPane.rowIndex="1" />
+      <Label fx:id="unoLLabel" GridPane.halignment="CENTER" GridPane.rowIndex="2" />
+      <Label fx:id="unoMLabel" GridPane.columnIndex="1" GridPane.halignment="CENTER" GridPane.rowIndex="2" />
+      <Label fx:id="unoXLabel" GridPane.columnIndex="2" GridPane.halignment="CENTER" GridPane.rowIndex="2" />
+      <Label fx:id="unoJLabel" GridPane.columnIndex="3" GridPane.halignment="CENTER" GridPane.rowIndex="2" />
+      <Label fx:id="unoVLabel" GridPane.columnIndex="4" GridPane.halignment="CENTER" GridPane.rowIndex="2" />
+      <Label fx:id="unoSLabel" GridPane.columnIndex="5" GridPane.halignment="CENTER" GridPane.rowIndex="2" />
+      <Label fx:id="unoDLabel" GridPane.columnIndex="6" GridPane.halignment="CENTER" GridPane.rowIndex="2" />
+      <Label fx:id="dosLLabel" GridPane.halignment="CENTER" GridPane.rowIndex="3" />
+      <Label fx:id="dosMLabel" GridPane.columnIndex="1" GridPane.halignment="CENTER" GridPane.rowIndex="3" />
+      <Label fx:id="dosXLabel" GridPane.columnIndex="2" GridPane.halignment="CENTER" GridPane.rowIndex="3" />
+      <Label fx:id="dosJLabel" GridPane.columnIndex="3" GridPane.halignment="CENTER" GridPane.rowIndex="3" />
+      <Label fx:id="dosVLabel" GridPane.columnIndex="4" GridPane.halignment="CENTER" GridPane.rowIndex="3" />
+      <Label fx:id="dosSLabel" GridPane.columnIndex="5" GridPane.halignment="CENTER" GridPane.rowIndex="3" />
+      <Label fx:id="dosDLabel" GridPane.columnIndex="6" GridPane.halignment="CENTER" GridPane.rowIndex="3" />
+      <Label fx:id="tresLLabel" GridPane.halignment="CENTER" GridPane.rowIndex="4" />
+      <Label fx:id="tresMLabel" GridPane.columnIndex="1" GridPane.halignment="CENTER" GridPane.rowIndex="4" />
+      <Label fx:id="tresXLabel" GridPane.columnIndex="2" GridPane.halignment="CENTER" GridPane.rowIndex="4" />
+      <Label fx:id="tresJLabel" GridPane.columnIndex="3" GridPane.halignment="CENTER" GridPane.rowIndex="4" />
+      <Label fx:id="tresVLabel" GridPane.columnIndex="4" GridPane.halignment="CENTER" GridPane.rowIndex="4" />
+      <Label fx:id="tresSLabel" GridPane.columnIndex="5" GridPane.halignment="CENTER" GridPane.rowIndex="4" />
+      <Label fx:id="tresDLabel" GridPane.columnIndex="6" GridPane.halignment="CENTER" GridPane.rowIndex="4" />
+      <Label fx:id="cuatroLLabel" GridPane.halignment="CENTER" GridPane.rowIndex="5" />
+      <Label fx:id="cuatroMLabel" GridPane.columnIndex="1" GridPane.halignment="CENTER" GridPane.rowIndex="5" />
+      <Label fx:id="cuatroXLabel" GridPane.columnIndex="2" GridPane.halignment="CENTER" GridPane.rowIndex="5" />
+      <Label fx:id="cuatroJLabel" GridPane.columnIndex="3" GridPane.halignment="CENTER" GridPane.rowIndex="5" />
+      <Label fx:id="cuatroVLabel" GridPane.columnIndex="4" GridPane.halignment="CENTER" GridPane.rowIndex="5" />
+      <Label fx:id="cuatroSLabel" GridPane.columnIndex="5" GridPane.halignment="CENTER" GridPane.rowIndex="5" />
+      <Label fx:id="cuatroDLabel" GridPane.columnIndex="6" GridPane.halignment="CENTER" GridPane.rowIndex="5" />
+      <Label fx:id="cincoLLabel" GridPane.halignment="CENTER" GridPane.rowIndex="6" />
+      <Label fx:id="cincoMLabel" GridPane.columnIndex="1" GridPane.halignment="CENTER" GridPane.rowIndex="6" />
+      <Label fx:id="cincoXLabel" GridPane.columnIndex="2" GridPane.halignment="CENTER" GridPane.rowIndex="6" />
+      <Label fx:id="cincoJLabel" GridPane.columnIndex="3" GridPane.halignment="CENTER" GridPane.rowIndex="6" />
+      <Label fx:id="cincoVLabel" GridPane.columnIndex="4" GridPane.halignment="CENTER" GridPane.rowIndex="6" />
+      <Label fx:id="cincoSLabel" GridPane.columnIndex="5" GridPane.halignment="CENTER" GridPane.rowIndex="6" />
+      <Label fx:id="cincoDLabel" GridPane.columnIndex="6" GridPane.halignment="CENTER" GridPane.rowIndex="6" />
+      <Label fx:id="seisLLabel" GridPane.halignment="CENTER" GridPane.rowIndex="7" />
+      <Label fx:id="seisMLabel" GridPane.columnIndex="1" GridPane.halignment="CENTER" GridPane.rowIndex="7" />
+      <Label fx:id="seisXLabel" GridPane.columnIndex="2" GridPane.halignment="CENTER" GridPane.rowIndex="7" />
+      <Label fx:id="seisJLabel" GridPane.columnIndex="3" GridPane.halignment="CENTER" GridPane.rowIndex="7" />
+      <Label fx:id="seisVLabel" GridPane.columnIndex="4" GridPane.halignment="CENTER" GridPane.rowIndex="7" />
+      <Label fx:id="seisSLabel" GridPane.columnIndex="5" GridPane.halignment="CENTER" GridPane.rowIndex="7" />
+      <Label fx:id="seisDLabel" GridPane.columnIndex="6" GridPane.halignment="CENTER" GridPane.rowIndex="7" />
+   </children>
+</fx:root>
